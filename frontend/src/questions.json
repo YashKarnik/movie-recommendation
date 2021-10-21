@@ -1,0 +1,6 @@
+{
+  "GENRE": "What Movie Genre are you interested in (if multiple, please separate them with a comma)? [Type 'skip' to skip this question]",
+  "ACTOR": "Who are some actors within the genre that you love (if multiple, please separate them with a comma)? [Type 'skip' to skip this question]",
+  "DIRECTOR": "Who are some directors within the genre that you love (if multiple, please separate them with a comma)? [Type 'skip' to skip this question]",
+  "KEYWORDS": "What are some of the keywords that describe the movie you want to watch, like elements of the plot, whether or not it is about friendship, etc? (if multiple, please separate them with a comma)? [Type 'skip' to skip this question]"
+}
