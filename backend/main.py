@@ -33,26 +33,4 @@ def get_movie():
     # return "Web App with Python Flask!"
 
 
-# @app.route("/get")
-# def get_from_api():
-#     query = request.args.get("msg")
-#     genre = request.args.get("genre").replace(" ", "") + " "
-#     actor = request.args.get("actor").replace(" ", "") + " "
-#     director = request.args.get("director").replace(" ", "") + " "
-#     keywords = request.args.get("keywords").replace(" ", "") + " "
-#     temp = genre + actor + director + keywords
-#     print(query)
-
-#     url = (
-#         "https://uitxgusnt5.execute-api.us-west-1.amazonaws.com/production/get?msg="
-#         + query
-#     )
-#     print(url)
-#     try:
-#         response = requests.get(url)
-#         return response.text
-#     except Exception as e:
-#         print(e)
-
-
 app.run(debug=True)
